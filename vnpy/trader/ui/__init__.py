@@ -5,7 +5,6 @@ import traceback
 import webbrowser
 import types
 
-import qdarkstyle
 from PyQt5 import QtGui, QtWidgets, QtCore
 
 from .mainwindow import MainWindow
@@ -22,7 +21,6 @@ def create_qapp(app_name: str = "VN Trader") -> QtWidgets.QApplication:
 
     # Set up dark stylesheet
     qapp = QtWidgets.QApplication(sys.argv)
-    qapp.setStyleSheet(qdarkstyle.load_stylesheet_pyqt5())
 
     # Set up font
     font = QtGui.QFont(SETTINGS["font.family"], SETTINGS["font.size"])

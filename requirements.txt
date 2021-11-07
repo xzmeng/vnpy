@@ -3,7 +3,6 @@ wheel
 tzlocal==2.0.0
 PyQt5==5.14.1
 pyqtgraph
-qdarkstyle
 requests
 websocket-client
 numpy
@@ -59,9 +58,9 @@ vnpy_mysql==1.0.0
 vnpy_postgresql==1.0.0
 vnpy_mongodb==1.0.0
 vnpy_influxdb==1.0.0
-vnpy_dolphindb==1.0.0
+# vnpy_dolphindb==1.0.0
 vnpy_arctic==1.0.0
-vnpy_leveldb==1.0.0
+# vnpy_leveldb==1.0.0
 
 vnpy_rqdata==2.9.38.0
 vnpy_tushare==1.2.64.0
